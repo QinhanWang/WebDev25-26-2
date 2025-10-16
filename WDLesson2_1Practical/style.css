@@ -8,6 +8,7 @@ selector{
 */
 
 
+
 /* Challenge 1: Change color of the text for all the headings size 3 to blue */
 h3{
   color: blue;
@@ -25,7 +26,7 @@ p{
   font-family: Arial;
 }
 /* Challenge 5: Change the family of font being used for all lists to "Comic Sans MS".  What element creates a list? */
-li{
+ui{
   font-family: "Comic Sans MS";
 }
 /* Chalenge 6: Change the background color of the div to blue, color of the text to white and the weight of the font to bold.*/
@@ -35,8 +36,8 @@ div{
    font-weight: bold;
 }      
 /* Hint:  You can specify several CSS rules for one element by separating the rules with semi-colons. Look at some examples on w3schools */
-p {
-  color: blue;
-  font-size: 16px;
-  margin: 10px;
+div {
+   background-color: black;
+   color: white;
+   font-weight: bold;
 }
