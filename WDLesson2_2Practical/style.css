@@ -14,7 +14,7 @@ with a class of "info" */
 .info{
      background-color: blue;
      color: white;
-  }
+    }
 /* Challenge 7: Add a border of 2px solid red for all elements with a class of "highlight" */
 .highlight{
           border:2px solid red;   
