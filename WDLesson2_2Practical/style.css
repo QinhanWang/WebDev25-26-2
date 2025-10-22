@@ -30,4 +30,4 @@ all elements with a class of "special"
 Apply a shadow to the box around the elements that is 2px 2px  gray. */ 
 .shawdow{
         box-shadow: 2px 2px gray;
-      }
+        }
