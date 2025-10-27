@@ -13,7 +13,7 @@
 /* Challenge 6: Change the background color to blue, the color of the text to white for all elements 
 with a class of "info" */
 .info{
-     background-color: blue;
+     background: blue;
      color: white;
     }
 /* Challenge 7: Add a border of 2px solid red for all elements with a class of "highlight" */
