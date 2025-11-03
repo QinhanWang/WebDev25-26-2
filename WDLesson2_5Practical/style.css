@@ -34,6 +34,6 @@
     transform: rotate(15deg);
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
-*{
+ *{
   transition:1s;
 }
