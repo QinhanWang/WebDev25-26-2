@@ -3,7 +3,7 @@
     font-family:Arial;
 }
 /* Challenge 9: Change the background color for all elements with a id of banner.  Choose a color
-                using rgb( )
+  using rgb( )
 */
  #banner{
     background-color:rgb(218, 202, 202);
