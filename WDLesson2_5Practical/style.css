@@ -32,7 +32,7 @@
  apply some other type of styling.
 */
 #secondGallery img:hover{
-    transform: rotate(20deg);
+    rotate:20deg;
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
 *{
