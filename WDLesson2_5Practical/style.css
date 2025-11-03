@@ -22,7 +22,7 @@
     height:200px;
 }
 /* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery,
-                 apply some type of styling using the filter( ) effect
+         apply some type of styling using the filter( ) effect
 */
 #firstGallery img:hover{
     filter: opacity(30%);
