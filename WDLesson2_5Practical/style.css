@@ -22,7 +22,7 @@
     height:200px;
 }
 /* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery,
-         apply some type of styling using the filter( ) effect
+   apply some type of styling using the filter( ) effect
 */
 #firstGallery img:hover{
     filter: opacity(30%);
@@ -31,7 +31,7 @@
  apply some other type of styling.
 */
 #secondGallery img:hover{
-    transform: rotate(15deg);
+    transform: rotate(20deg);
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
 *{
