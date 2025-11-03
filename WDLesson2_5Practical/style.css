@@ -28,7 +28,7 @@
     filter: opacity(30%);
 }
 /* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
-                 apply some other type of styling.
+ apply some other type of styling.
 */
 #secondGallery img:hover{
     transform: rotate(15deg);
