@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- WD Lesson 3.1: 
+     How can we add interactions to a web page? -->
+
+<!-- Resources 
+     https://www.w3schools.com/js/default.asp
+-->
+<html>
+  <head>
+    <title>WD Lesson 3.1 Practical</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+
+
+    </style>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <!-- Challenge 0: Create a <div> and give it a class of container and center.  Inside the <div> add an <h1> with the text "Event Listener"-->
+    <div class=" container center">
+    <h1>Event listener</h1>
+    </div>
+    <!-- Challenge 1: Give the <div> below a class of "container" -->
+    <div class="container">
+      <!-- Challenge 2: Add three images of your choice. --> 
+      <img src="https://erepublic.brightspotcdn.com/dims4/default/f7db6eb/2147483647/strip/true/crop/5209x2532+0+470/resize/1440x700!/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.us-west-2.amazonaws.com%2F43%2Fde%2Fb968d9534107814962536bf4e2e7%2Funiversity-at-buffalo.jpg" onclick="alert('This is Buffalo university')">
+      <img src="https://www.binghamton.edu/news/images/uploads/features/20190712_berm02_jwc.jpg" onclick="alert('This is Binghamton university')">
+      <img src="https://images.shiksha.com/mediadata/images/1515141995phppAR62g.jpeg" onclick="alert('This is Albany university')">
+    </div>
+      <!-- Challenge 3: Add an event listener to each of the images above in order to display an appropriate message about the image 
+           using an alert when user clicks on the image.  
+       -->
+     
+       <!-- Challenges 4 - 7 are in style.css-->
+    </div>
+    <hr>
+    <div class="translations">
+      <!-- Challenge 8: Choice three words in another langauge. Place each word in a <span>.  Give each <span> a class of button
+           When the user clicks on the word in the <span> offer the English translation in an alert.   -->
+      <span onclick="alert('Hello')" class="button">Hola</span>
+      <span onclick="alert('Hello')" class="button">Dos</span>
+      <span onclick="alert('Hello')" class="button">Bueno</span>
+    </div>
+  </body>
+</html>
