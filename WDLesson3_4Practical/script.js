@@ -13,7 +13,6 @@ function createStory(){
       2) A vegetable
       3) A girl's name
       4) Another vegetable
-
   Choose your variable names wisely.  This is a lot of practice of creating variables and using document.getElementById(..)
   */
 let boy = document.getElementById("boy").value;
