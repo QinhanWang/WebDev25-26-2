@@ -51,11 +51,17 @@ function triArea(){
          let Bas = parseFloat(document.getElementById("B").value);
          let Hei = parseFloat(document.getElementById("H").value);
          let op = document.getElementById("output");
-         let P = (L*H)/2
-         op.innerHTML= "Perimeter is: " + P;
+         let A = (L*H)/2;
+         op.innerHTML= " Area is" + A;
 
 }
 
 function triPerimeter(){
+      let a = parseFloat(document.getElementById("a").value);
+      let b = parseFloat(document.getElementById("b").value);
+      let c = parseFloat(document.getElementById("c").value);
+      let op = document.getElementById("output");
+      let P = a + b + c;
+      op.innerHTML= "Perimeter is: " + P;  
 
 }
