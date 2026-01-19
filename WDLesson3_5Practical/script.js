@@ -51,8 +51,8 @@ function triArea(){
          let Bas = parseFloat(document.getElementById("B").value);
          let Hei = parseFloat(document.getElementById("H").value);
          let op = document.getElementById("output");
-         let A = (L*H)/2;
-         op.innerHTML= " Area is" + A;
+         let A = (Bas*Hei)/2;
+         op.innerHTML= " Area is: " + A;
 
 }
 
