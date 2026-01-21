@@ -25,5 +25,5 @@ function bml(){
          let W = parseFloat(document.getElementById("w").value);
          let pu = document.getElementById("put");
          let bml = W / H*H;
-         pu.innerHTML = `The BMI is ${bml}`;
+         pu.innerHTML = ` The BMI is ${bml} `;
 }
