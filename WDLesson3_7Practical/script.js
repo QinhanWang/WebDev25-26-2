@@ -3,6 +3,7 @@
       2) Perform the necessary calculations
       3) Display the results in the appropriate element
 */
+
  function calcDist(){
             let x1 = parseFloat(document.getElementById("x1").value);
             let y1 = parseFloat(document.getElementById("y1").value);
@@ -17,6 +18,7 @@
       2) Perform the necessary calculations
       3) Display the results in the appropriate element
 */
+
  function compound(){
             let p = parseFloat(document.getElementById("p").value);
             let r = parseFloat(document.getElementById("r").value);
