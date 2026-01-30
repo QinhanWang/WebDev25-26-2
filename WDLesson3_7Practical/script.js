@@ -28,5 +28,5 @@
             let op = document.getElementById("output1");
             op.innerHTML=`The compound interest is ${A}`;
  }
-
+ //a.toFixed(2): roung number 2 places
 
