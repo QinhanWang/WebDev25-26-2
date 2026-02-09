@@ -37,6 +37,7 @@ function pet(){
   let e = document.getElementById("emotion").value;
   let output = document.getElementById("output");
   let filename = "";
+  
   if (a == "Bear" && e == "Funny"){
     filename = "funnyBear.jpg";
   }
