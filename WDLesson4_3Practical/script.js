@@ -20,7 +20,6 @@ function BMI(){
        let output = document.getElementById("output");
        let status ="";
        let filename ="";
-
        if (bmi < 18.5){
               status = "Underweight";
               filename = "underweight.png";
