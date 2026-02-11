@@ -45,8 +45,10 @@ html,body{
   text-align:center;
 }
 .card img{
-  width:100%;
+  width:10%;
+  height:10%;
 }
+
 .highlight{
   font-style:italic;
   color:blueviolet;
