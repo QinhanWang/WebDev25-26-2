@@ -14,12 +14,14 @@ Guideline:
 Use past examples, classwork and practicals to assist you in completing this practical.
 */
 function BMI(){
+
        let h = parseFloat(document.getElementById("h").value);
        let w = parseFloat(document.getElementById("w").value);
        let bmi = 703 * w / (h**2);
        let output = document.getElementById("output");
        let status ="";
        let filename ="";
+
        if (bmi < 18.5){
               status = "Underweight";
               filename = "underweight.png";
@@ -33,5 +35,5 @@ function BMI(){
               status = "Obesity";
               filename =  "obeseweight.png";
        }
-       output.innerHTML = `You are ${status};    <img src = "${filename}"> `;
+       output.innerHTML = `<img src = "${filename}"><br>You BMI is ${bmi} and this status is ${status} `;
 }
