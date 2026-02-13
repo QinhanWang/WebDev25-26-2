@@ -14,7 +14,6 @@ Guideline:
 Use past examples, classwork and practicals to assist you in completing this practical.
 */
 function BMI(){
-
        let h = parseFloat(document.getElementById("h").value);
        let w = parseFloat(document.getElementById("w").value);
        let bmi = 703 * w / (h**2);
