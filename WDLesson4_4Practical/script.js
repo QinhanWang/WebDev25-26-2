@@ -9,6 +9,7 @@ function generateProblem(){
          let num1 = Math.floor(Math.random()*(20 - 0 + 1) + 0);
          let num2 = Math.floor(Math.random()*(20 - 0 + 1) + 0); 
          let problem = document.getElementById("problem");
+         correct = num1 + num2;
          problem.innerHTML = `${num1} + ${num2} =`;
 }
 
@@ -26,13 +27,13 @@ function checkResponse(){
        let output = document.getElementById("output");
        let msg = "";
        let img = "";
-       if ("response" == "correct"){
-              msg = "Correct!";
-              img = `correct.webp`;
+       if (response == correct){
+             msg = "Correct!";
+             img = "correct.webp";
        }else{
-             msg= `Incorrect! The answer is ${response}`;
+             msg = `Incorrect! The answer is ${correct}`;
              img = "incorrect.avif";
        }
-       output.innerHTML =`${msg} <img src = "${img}">`;
+       output.innerHTML =`${msg} <br> <img src = "${img}">`;
 }
 
