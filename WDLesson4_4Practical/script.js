@@ -12,7 +12,6 @@ function generateProblem(){
          correct = num1 + num2;
          problem.innerHTML = `${num1} + ${num2} =`;
 }
-
 /* Challenge 3: Complete the function checkResponse by ,
        1) Create a variable for the users response
        2) Create a variable for the <div> with id of output
