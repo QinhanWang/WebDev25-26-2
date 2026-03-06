@@ -16,12 +16,12 @@ Year N: $xxxxxx
 function Calcu(){
     let p = parseFloat(document.getElementById("p").value);
     let r = parseFloat(document.getElementById("r").value); 
-    let n = parseFloat(document.getElementById("n").value);
-    let yrs = parseFloat(document.getElementById("t").value);
+    let n = parseInt(document.getElementById("n").value);
+    let yrs = parseInt(document.getElementById("t").value);
     let output = document.getElementById("output");
     let bulid = "";
     for (let t = 0 ; t <= yrs ; t += 1 ){
-        let A = p * (1 + (r/100)/n)**(n*t);
+        let A = p * (1 + r/n)**(n*t);
         bulid += `Years ${t}:$ ${A.toFixed(2)} <br>`;
     }
     output.innerHTML = `${bulid}`;    
