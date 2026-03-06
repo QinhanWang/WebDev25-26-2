@@ -20,6 +20,7 @@ function Calcu(){
     let yrs = parseInt(document.getElementById("t").value);
     let output = document.getElementById("output");
     let bulid = "";
+
     for (let t = 0 ; t <= yrs ; t += 1 ){
         let A = p * (1 + r/n)**(n*t);
         bulid += `Years ${t}:$ ${A.toFixed(2)} <br>`;
