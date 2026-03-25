@@ -37,3 +37,22 @@ for (let t = 0; t <= years; t ++){
               c. n = 4 then the interest is compounded quarterly
               d. n = 2 then the interest is compounded bi-yearly
 */ 
+function balance2(){
+        let output = document.getElementById("output");
+        let P = parseFloat(document.getElementById("p").value);
+        let r = parseFloat(document.getElementById("r").value);
+        let n = parseFloat(document.getElementById("n").value);
+        let years = parseFloat(document.getElementById("t").value);
+        let build = "";
+        build += `<table>
+                          <tr> <th>Year</th> <th>Balance</th> </tr>`;
+for (let t = 0; t <= years; t ++){
+        let A = P*(1 + (r / 100))**(n*t);
+        build += `<tr>
+                      <td>${t}</td>
+                      <td>$${A.toFixed(2)}</td>
+                  </tr>`;
+}
+  build += "</table>";
+  output.innerHTML = build;
+}
