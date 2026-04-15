@@ -35,7 +35,6 @@ let desserts = [
   { title: "Passion Berry", image: "brisket.jpg", price: 3.99 },
   { title: "Oreo Cup", image: "oreocup.jpg", price: 2.99 }
 ];
-
 function showMeats(){
   let title = document.getElementById("title");
   let output = document.getElementById("output");
