@@ -24,6 +24,12 @@ async function init(){
               </div>` ;   
   }
   output.innerHTML = build;
+
+  let type = fillDropDown("vehicle_type_code1");
+  document.getElementById("types").innerHTML = type;
+
+  let street = fillDropDown("on_street_name");
+  document.getElementById("street").innerHTML = street;
 }
 
 // Code below demonstrates the basic process to filter information by borough. Use this as a guide for Challenges 2 and 4 below.
@@ -148,5 +154,36 @@ function searchByType(){
     }
   }
   result.innerHTML = `${ct} Results found.`
+  output.innerHTML = build;
+}
+
+function searchByTypeStreet(){
+  let output = document.getElementById("output");
+  let result = document.getElementById("result");
+
+  let type = document.getElementById("types").value;
+  let streets = document.getElementById("street").value;
+  let build = "";
+  let ct = 0;
+
+  for(let i = 0; i < data.length; i+=1){
+    let crash = data[i];
+    if(crash.vehicle_type_code1 == type && crash.on_street_name == streets){
+    build += `<div class="fitted card">
+                 <h3>${crash.on_street_name}</h3>
+                 <hr>
+                 <h5>Time: ${crash.crash_date}</h5>
+                 <h4>ID: ${crash.collision_id}</h4>
+                 <h4>Persons injured: ${crash.number_of_persons_injured}</h4>
+                 <h4>Persons killed: ${crash.number_of_persons_killed}</h4>
+                 <hr>
+                 <h3>[Vechicle]</h3>
+                 <h4>Factor: ${crash.contributing_factor_vehicle_1}</h4>
+                 <h4>Type: ${crash.vehicle_type_code1}</h4>
+              </div>`; 
+      ct += 1;
+  }
+  }
+  result.innerHTML = `${ct} Results found`;
   output.innerHTML = build;
 }
